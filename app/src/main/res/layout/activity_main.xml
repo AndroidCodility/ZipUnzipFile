@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/applicant_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ll"
+        android:padding="10dp"
+        android:text="@string/app_info"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvHeader"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btUnzip"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_background"
+        android:onClick="zipView"
+        android:text="@string/zip"
+        android:textColor="@android:color/white"
+        tools:ignore="OnClick" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btUnzip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_background"
+        android:onClick="unZipView"
+        android:text="@string/unzip"
+        android:textColor="@android:color/white"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZipUnzip File</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="zip">Zip</string>
+    <string name="unzip">Unzip</string>
+    <string name="permission_necessary">Permission Necessary</string>
+    <string name="external_storage_permission">External Storage Permission</string>
+    <string name="app_info">This sample explains “How to Programmatically Zip and Unzip File in Android”. Zipping means writing (compress) data into zip files.
+        \n\n Why you need a Zip file?
+\n\nYou couldn’t send multiple attachments using Intents to the Google Mail app. The quickest way around that was of course to compress all of the files into one (ZIP).
+\n\nFor the applications that need to send multiple files to server, it is always easiest to create a zip file and send it across over network.</string>
+</resources>
